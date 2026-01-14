@@ -7,7 +7,8 @@
 	"type": "module",
 	"scripts": {
 		"check": "tsc --noEmit",
-		"build": "node scripts/build.js"
+		"build": "node scripts/build.js",
+        "deploy": "npx wrangler deploy dist/worker.js"
 	},
 	"devDependencies": {
 		"@eslint/css": "^0.8.1",
